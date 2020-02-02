@@ -1,6 +1,6 @@
 # Project soal nomor 6
 
-#### Show ####
+#### Show data ####
 ![](06/img/show.png)
 
 #### Add data ####
