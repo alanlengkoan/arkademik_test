@@ -14,6 +14,8 @@ include_once 'koneksi.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- font awesome css cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- datatables css cdn -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/>
     <!-- jquery js cdn -->
     <script rel="preload" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
@@ -39,7 +41,7 @@ include_once 'koneksi.php';
 
                 <div class="card">
                     <div class="card-body">
-                        <table class="table">
+                        <table class="table" id="tabel-pemesanan">
                             <thead style="background-color: #ffc107; color: white">
                                 <tr>
                                     <th>No</th>
@@ -159,11 +161,16 @@ include_once 'koneksi.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <!-- bootstrap 4 js cdn -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- datatables js cdn -->
+    <script src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script> 
     <!-- sweetalert js cdn -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script>
         $(document).ready(function () {
+            // untuk tabel
+            $('#tabel-pemesanan').DataTable();
+
             // untuk proses tambah
             $('#formAdd').submit(function () {
                 $.ajax({
