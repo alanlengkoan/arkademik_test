@@ -1,4 +1,4 @@
-# Project soal nomor 6
+# Project CRUD
 
 #### Show data ####
 ![](06/img/show.png)
