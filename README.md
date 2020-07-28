@@ -11,3 +11,5 @@
 
 #### Delete data ####
 ![](06/img/del.png)
+
+# test ji
