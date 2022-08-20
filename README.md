@@ -1,13 +1,13 @@
 # Project CRUD
 
 #### Show data ####
-![](06/img/show.png)
+![](img/show.png)
 
 #### Add data ####
-![](06/img/add.png)
+![](img/add.png)
 
 #### Update data ####
-![](06/img/upd.png)
+![](img/upd.png)
 
 #### Delete data ####
-![](06/img/del.png)
+![](img/del.png)
