@@ -11,5 +11,3 @@
 
 #### Delete data ####
 ![](06/img/del.png)
-
-test alan lagi
